@@ -31,23 +31,34 @@ struct ContentView: View {
                         .foregroundColor(Color("Lime"))
                         .frame(width: 40)
                     
-                    
                 }
                 
+                VStack{
+                    
+                    Text("Setup complete")
+                        .foregroundColor(.white)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    
+                    
+                    Text("You can now start matching workouts with your shoes.")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .padding()
+                        .font(.title3)
+                        .fontWeight(.bold)
+                    
+                    
+                }
+                    
                 
-                Text("Setup complete")
-                    .foregroundColor(.white)
-                    .font(.title)
             }
+            
             
             
         }
         
-        
-        
     }
-    
-    
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
