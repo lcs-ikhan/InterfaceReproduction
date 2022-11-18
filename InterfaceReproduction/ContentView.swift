@@ -14,6 +14,9 @@ struct ContentView: View {
             Color.black
                 .ignoresSafeArea()
             VStack{
+                
+                Spacer()
+                
                 ZStack{
                     
                     
@@ -48,18 +51,19 @@ struct ContentView: View {
                         .font(.title3)
                         .fontWeight(.bold)
                     
-                    
                 }
-                    
+                
+                Spacer()
+                
+                Text("Start using app now.")
+                    .foregroundColor(.white)
+                
+                
                 
             }
             
-            
-            
         }
-        
     }
-    
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
