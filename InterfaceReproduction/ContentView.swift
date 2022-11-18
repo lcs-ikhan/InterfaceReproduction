@@ -14,7 +14,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             Circle()
-                .foregroundColor(.green)
+                .foregroundColor(Color("Lime"))
                 .frame(width: 100)
             
             Circle()
@@ -24,12 +24,15 @@ struct ContentView: View {
             Image(systemName: "checkmark")
                 .resizable()
                 .scaledToFit()
-                .foregroundColor(.green)
-                .frame(width: 50)
+                .foregroundColor(Color("Lime"))
+                .frame(width: 50, height: 50)
             
                
         }
-    
+        
+            
+            
+        }
     }
 
     
