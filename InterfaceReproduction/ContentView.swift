@@ -55,18 +55,30 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Text("Start using app now.")
-                    .foregroundColor(.white)
+                Button(action: {}) {
+                }
+                Text("Start using the app")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .padding()
+                    .frame(width: 360, height: 55)
+                    .foregroundColor(Color.black)
+                    .background(Color("Lime.2"))
+                    .cornerRadius(9)
                 
                 
                 
             }
             
+            
+            
         }
-    }
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+        
     }
 }
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
