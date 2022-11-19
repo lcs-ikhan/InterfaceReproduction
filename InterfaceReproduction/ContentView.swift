@@ -32,13 +32,15 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFit()
                         .foregroundColor(Color("Lime"))
-                        .frame(width: 40)
+                        .frame(width: 35)
+                        
                     
                 }
                 
                 VStack{
                     
                     Text("Setup complete")
+                        .frame(height: 60)
                         .foregroundColor(.white)
                         .font(.title)
                         .fontWeight(.bold)
@@ -49,7 +51,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .padding()
                         .font(.title3)
-                        .fontWeight(.bold)
+//                        .fontWeight(.bold)
                     
                 }
                 
